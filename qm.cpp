@@ -123,7 +123,6 @@ public:
 };
 
 class QuineMcCluskey{
-private:
 	string mode[2]={"minterm", "maxterm"};
 	Functions func;
  	int nBits; // number of bits
@@ -182,7 +181,7 @@ public:
 		table = vector<vector<string>>(nBits+1);
 	}
 
-	void setPrimeImp() {
+	void setPI() {
 		set<string> primeImpTemp;
 		createTable();
 
@@ -254,7 +253,7 @@ public:
 			}
 		}
 
-		//Combinations with minimum terms
+		//Combinations with minimum number of terms
 		vector< set<int> > minComb;
 		set< set<int> > :: iterator itr;
 		for (itr = possibleComb.begin(); itr != possibleComb.end(); ++itr){
@@ -264,7 +263,7 @@ public:
 			}
 		}
 
-		//Combinations with minimum variables
+		//Combinations with minimum number of variables
 		min = 9999;
 		for (int i = 0; i < minComb.size(); ++i){
 			if(func.getNumVar(minComb[i], primeImp) < min){
@@ -399,7 +398,7 @@ int main()  {
 		else
 			cout << "Minterm mode!\n";
 		algo.initialize(mode);
-		algo.setPrimeImp();
+		algo.setPI();
 		algo.minimize();
 		algo.displayResults(mode);
 		end();
