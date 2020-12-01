@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T13:49:43.187Z" agent="5.0 (X11)" etag="BvbJmg8dPFXLeJxHCg-Q" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-01T13:55:00.963Z" agent="5.0 (X11)" etag="WMlQRZuLnxtISNWW56bu" version="13.10.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="959" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -69,18 +69,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-21" value="Chọn những tổ hợp có số số hạng ít nhất" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="630" width="100" height="60" as="geometry" />
+          <mxGeometry x="650" y="650" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-22" target="gtXkjOMgRq_pGG1nYrA1-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-22" value="Chọn những tổ hợp có số biến ít nhất" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="630" width="100" height="60" as="geometry" />
+          <mxGeometry x="500" y="650" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-55" value="Maxterm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-23" target="gtXkjOMgRq_pGG1nYrA1-25">
           <mxGeometry x="0.2594" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="405" y="740" />
+              <mxPoint x="405" y="760" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -88,7 +88,7 @@
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-23" target="gtXkjOMgRq_pGG1nYrA1-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="405" y="820" />
+              <mxPoint x="405" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -98,13 +98,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-23" value="&lt;div&gt;Mode đã chọn&lt;/div&gt;&lt;div&gt; ở bước đầu?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="620" width="110" height="80" as="geometry" />
+          <mxGeometry x="350" y="640" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-24" target="gtXkjOMgRq_pGG1nYrA1-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-24" value="Hiển thị SOP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="790" width="100" height="60" as="geometry" />
+          <mxGeometry x="500" y="810" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-25" target="gtXkjOMgRq_pGG1nYrA1-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-25" value="Hiển thị POS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="710" width="100" height="60" as="geometry" />
+          <mxGeometry x="500" y="730" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;entryX=0.5;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-26" target="gtXkjOMgRq_pGG1nYrA1-27">
           <mxGeometry relative="1" as="geometry" />
@@ -122,6 +128,43 @@
         </mxCell>
         <mxCell id="gtXkjOMgRq_pGG1nYrA1-27" value="Nhập giá trị maxterm và don&#39;t care" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=13;arcSize=18;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="525" y="320" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-58" target="gtXkjOMgRq_pGG1nYrA1-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-69" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="gtXkjOMgRq_pGG1nYrA1-68">
+          <mxGeometry x="-0.2327" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-58" value="Tiếp tục?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="760" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-63" value="" style="endArrow=classic;html=1;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="140" as="sourcePoint" />
+            <mxPoint x="420" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-64" value="" style="endArrow=none;html=1;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="800" as="sourcePoint" />
+            <mxPoint x="810" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-66" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="gtXkjOMgRq_pGG1nYrA1-64">
+          <mxGeometry x="-0.8701" y="-1" relative="1" as="geometry">
+            <mxPoint y="12.86" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-65" value="" style="endArrow=none;html=1;fontFamily=Verdana;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gtXkjOMgRq_pGG1nYrA1-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="780" as="sourcePoint" />
+            <mxPoint x="810" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtXkjOMgRq_pGG1nYrA1-67" value="Kết thúc" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="890" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
